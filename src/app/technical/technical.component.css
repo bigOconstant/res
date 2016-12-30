@@ -1,0 +1,396 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+
+
+
+
+
+/*  following just for the demo */
+
+
+
+.section-wrapper{
+margin-bottom:40px;
+}
+
+body {
+
+    font-size:20px;
+
+    font-family: 'Lato',verdana, sans-serif;
+
+    color: #fff;
+
+    text-align:center;
+
+    background:#686665;
+
+}
+
+p{
+
+    margin:0;
+
+    padding:0;
+
+    text-align:left;
+
+}
+
+
+
+.numbers{
+
+    font-weight:900;
+
+    font-size:100px;
+
+}
+
+
+
+#bottom {
+
+    clear:both;
+
+    margin:0 1.66%;
+
+    width:89.68%;
+
+    padding: 3.5%;
+
+    background-color:#686665;
+
+    color: #fff;
+
+}
+
+#bottom p{
+
+    text-align:center;
+
+    line-height:2em;
+
+}
+
+#bottom a{
+
+    color: #000;
+
+    text-decoration:none;
+
+    border:1px solid #000;
+
+    padding:10px 20px 12px;
+
+    line-height:70px;
+
+    background:#ccc;
+
+    
+
+    -webkit-border-radius: 5px;
+
+    -moz-border-radius: 5px;
+
+    border-radius: 5px;
+
+}
+
+
+
+#bottom a:hover{
+
+    background:#ECECEC;
+
+    border:1px solid #fff;
+
+}
+
+
+
+
+
+.my-section{
+
+	margin-top:60px;
+
+	margin-bottom:20px;
+
+    text-align: center;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+
+	font-size: 28px;
+
+	font-weight:bold;
+
+	color:#686665;
+
+}
+
+p{
+
+		font-family: 'Open Sans Condensed', sans-serif;
+
+		color:#686665;
+
+		font-size:20px;
+
+}
+
+
+
+.a-line{
+
+	
+
+}
+
+hr{
+
+	width:50%;
+
+}
+
+
+/***NEW **/
+.card {
+  position: relative;
+  float: left;
+  padding-bottom: 15%;
+  width: 16%;
+  text-align: center;
+  margin-bottom:2px;
+}
+.card__text{
+
+display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 20px;
+    color: black;
+    font-family: "Roboto Slab", serif;
+    line-height: 20px;
+    color:white;
+}
+
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size:100%;
+ 
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.9s;
+          transition: transform 0.3s;
+
+}
+
+.card__front {
+
+  background-color: #686665;
+
+  color:black;
+}
+
+.card__back {
+
+  background-color: white;
+
+
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  color:black;
+}
+
+
+
+
+.card.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+.card{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+
+/*****section***********/
+.section{
+
+margin-bottom: 2px;
+width:100%;
+ margin-left:2%;
+ margin-right:2%;
+
+
+
+}
+.html5{
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg");
+}
+.CSS3{
+background-image:url("http://i.imgur.com/hwRPVsi.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+.javascript{
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b6/Badge_js-strict.svg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.jquery{
+/*Format to look like code */
+ font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-family: consolas, monaco, courier, "courier new", fixed-width;
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nodejs{
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.java{
+background-image:url("https://i.imgur.com/Gaao8Ey.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.sql{
+
+/*Format to look like code */
+ font-size: 14px;
+  line-height: 20px;
+  font-weight: normal;
+  font-style: normal;
+  width:100%;
+  font-family: consolas, monaco, courier, "courier new", fixed-width;
+  color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+}
+.code{
+background-color:black;
+}
+.scrum{
+background-image:url("https://i.imgur.com/TVvsUWU.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size:contain;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.angularjs{
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/c/ca/AngularJS_logo.svg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+.expressjs{
+background-image:url("http://i.imgur.com/cGpB5lE.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size:contain;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.mongo{
+background-image:url("http://i.imgur.com/4OVZc9E.png");
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size:contain;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+.angular2{
+background-image:url("http://i.imgur.com/HhhAvr3.png");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+/****end section ********/
+
+/**Mobile Design ***/
+@media (max-width: 606px) { 
+      
+.section{
+	margin-left:2px;
+	
+}
+.card {
+  position: relative;
+  float: left;
+
+  padding-bottom: 24%;
+  width: 24%;
+  text-align: center;
+  margin-bottom:2px;
+}
+.card__text{
+
+display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    height: 20px;
+
+    font-family: "Roboto Slab", serif;
+    line-height: 20px;
+    margin:0
+
+}
+.code-text{
+color:green;
+}
+span.card__text.sql {
+    margin: 0;
+}
+}
+
+/***End Mobile design**/
+

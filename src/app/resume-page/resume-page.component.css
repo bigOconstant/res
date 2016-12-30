@@ -1,0 +1,58 @@
+.experienceSection{
+clear:left;
+}
+.my-section{
+
+	margin-top:60px;
+
+	margin-bottom:20px;
+
+    text-align: center;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+
+	font-size: 28px;
+
+	font-weight:bold;
+
+	color:#686665;
+
+}
+
+p{
+
+		font-family: 'Open Sans Condensed', sans-serif;
+
+		color:#686665;
+
+		font-size:20px;
+
+}
+
+
+
+
+
+hr{
+
+	width:50%;
+
+}
+
+
+
+.resume-details{
+
+	margin-left:2%;
+
+	margin-right:2%;
+
+}
+
+p{
+
+		font-family: 'Open Sans Condensed', sans-serif;
+
+
+
+}

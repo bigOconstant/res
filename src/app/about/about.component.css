@@ -1,0 +1,69 @@
+.my-section{
+
+	margin-top:60px;
+
+	margin-bottom:20px;
+
+    text-align: center;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+
+	font-size: 28px;
+
+	font-weight:bold;
+
+	color:#686665;
+
+}
+
+
+
+hr{
+
+	width:50%;
+
+}
+
+.center{
+
+	margin-top:20px;
+
+	margin-bottom:20px;
+
+	margin-left:2%;
+
+	margin-right:2%;
+
+    text-align: left;
+
+	
+
+}
+
+.img-circle {
+
+    border-radius: 50%;
+
+}
+
+.me-pic{
+
+	height:100px;
+
+	width:100px;
+
+	margin-right:20px;
+
+}
+
+
+
+p{
+
+		font-family: 'Open Sans Condensed', sans-serif;
+
+		color:#686665;
+
+		font-size:20px;
+
+}

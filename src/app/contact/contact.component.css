@@ -1,0 +1,91 @@
+.contacts{
+margin-bottom:80px;
+}
+.copyright{
+font-family: 'Open Sans Condensed', sans-serif;
+
+		color:#686665;
+
+		font-size:12px;
+		text-align: center;
+}
+.my-section{
+
+	margin-top:60px;
+
+	margin-bottom:20px;
+
+    text-align: center;
+
+	font-family: 'Open Sans Condensed', sans-serif;
+
+	font-size: 28px;
+
+	font-weight:bold;
+
+	color:#686665;
+
+}
+
+p{
+
+		font-family: 'Open Sans Condensed', sans-serif;
+
+		color:#686665;
+
+		font-size:20px;
+
+}
+
+
+
+hr{
+
+	width:50%;
+
+}
+
+.center{
+
+	margin-top:20px;
+
+	margin-bottom:20px;
+
+	margin-left:10%;
+
+	margin-right:10%;
+
+    text-align: left;
+
+	
+
+}
+
+.contact-details{
+
+	margin-left:2%;
+
+	margin-right:2%;
+
+}
+
+.circle{
+
+	height:30px;
+
+	width:30px;
+
+	background-color:#eee;
+
+	border-radius: 4px;
+
+	padding-top:7px;
+
+	padding-left:9px;
+
+}
+
+.contact-styles {
+font-family: 'Open Sans Condensed', sans-serif;
+
+}
